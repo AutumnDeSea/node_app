@@ -1,0 +1,10 @@
+:root {
+    --bgColor: black;
+    --fontColor: yellowgreen;
+}
+body {
+    background-color: var(--bgColor);
+}
+h1 {
+    color: var(--fontColor);
+}

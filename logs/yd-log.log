@@ -1,0 +1,18 @@
+[2018-12-17T22:56:21.631] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/konglili/Desktop/全栈工程师/第二周node/node_app/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/konglili/Desktop/全栈工程师/第二周node/node_app/dist/views/index.html' }
+[2018-12-17T22:56:29.151] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/konglili/Desktop/全栈工程师/第二周node/node_app/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/konglili/Desktop/全栈工程师/第二周node/node_app/dist/views/index.html' }
+[2018-12-17T22:56:59.167] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/konglili/Desktop/全栈工程师/第二周node/node_app/dist/views/create.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/konglili/Desktop/全栈工程师/第二周node/node_app/dist/views/create.html' }

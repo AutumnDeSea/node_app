@@ -1,0 +1,21 @@
+// gulp 
+1、安装gulp
+2、配置package.json
+ 需要配置很多
+    "server:dev": "cross-env NODE_ENV=development gulp",
+    "server:prod": "",
+    "server:lint": "",
+引入了shell.js
+建立scrips/server下面一系列的玩意
+3、安装scripty， 自动的去找写的脚本
+4、sudo chmod -R a+x scripts 给予scirpts目录权限
+5、 安装 gulp-babel 编译es6语法
+5、安装 gulp-watch 监控开发环境的
+5、流清理 安装 gulp-rollup
+    config文件里面很多东西都不需要了， treeshaking帮我们解决
+6、系统默认的环境变量我们去使
+    npm run env 查看哪些可以使用的
+    cross-var 不同系统下面的声明变量
+7、package.json 的生命周期
+8、husky本地代码hint
+9、流清洗使用rollup只清洗掉了无用代码， 没有清晰多余的逻辑判断

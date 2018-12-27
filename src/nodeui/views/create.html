@@ -1,0 +1,38 @@
+
+{% extends './layout.html' %}
+
+{% block title %}
+    新增图书
+{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+    <form>
+        <label name='name'></label>
+        <input type="text" name='name' />
+        <input type='button' value="提交" id='js-btn'/>
+    </form>
+    
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <!-- <script type="module">
+        import Create from '/scripts/index.js';
+        console.log(Create);
+        const create = new Create();
+        create.fn();
+    </script> -->
+    <script src="https://cdn.bootcss.com/systemjs/2.1.1/system.js"></script>
+    <script nomodule type="text/javascript">
+        System.import('/scripts/index.js').then((_) => {
+            var s = new _.default();
+            s.fn();
+        })
+    </script>
+{% endblock %}
+
+
+

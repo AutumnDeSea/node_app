@@ -1,0 +1,195 @@
+[2018-12-06T21:29:08.744] [ERROR] cheese - TypeError: Cannot read property 'then' of undefined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:19:17)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:5:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:9:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-06T21:33:40.864] [ERROR] cheese - TypeError: Cannot read property 'then' of undefined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:19:17)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:5:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:9:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-06T21:43:56.767] [ERROR] cheese - TypeError: Cannot read property 'name' of undefined
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:11:37
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+[2018-12-06T21:44:26.925] [ERROR] cheese - TypeError: Cannot read property 'name' of undefined
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:12:37
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+[2018-12-06T21:44:30.924] [ERROR] cheese - TypeError: Cannot read property 'name' of undefined
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:12:37
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+[2018-12-07T13:35:26.310] [ERROR] cheese - TypeError: Cannot read property 'method' of undefined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:42)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-07T13:42:41.453] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-07T13:42:42.770] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-07T13:43:41.605] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-07T13:43:57.037] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-07T13:44:22.718] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-07T14:29:25.840] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-07T23:40:42.832] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-08T00:05:13.005] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-08T12:11:05.931] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:11:07.649] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:11:29.599] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:11:30.852] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:11:48.805] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:11:50.271] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:12:18.598] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:12:39.680] [ERROR] cheese - ReferenceError: fetch is not defined
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:18:25)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:13:15.936] [ERROR] cheese - TypeError: selfFetch is not a function
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:25:13)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:13:17.304] [ERROR] cheese - TypeError: selfFetch is not a function
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:25:13)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:14:40.465] [ERROR] cheese - TypeError: selfFetch is not a function
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:25:13)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:14:41.779] [ERROR] cheese - TypeError: selfFetch is not a function
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:25:13)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:14:51.527] [ERROR] cheese - TypeError: selfFetch is not a function
+    at Promise (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:25:13)
+    at new Promise (<anonymous>)
+    at SafeRequest.fetch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/utils/SafeRequest.js:11:16)
+    at Index.getData (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/models/Index.js:26:28)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/controllers/IndexController.js:10:40
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/konglili/Desktop/全栈工程师/第二周node/node_app/middlewares/errorHandler.js:14:19)
+[2018-12-08T12:18:44.633] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }
+[2018-12-08T12:19:44.539] [ERROR] cheese - { code: 1, message: 'node-fetch请求失败， 后端报警', data: [] }

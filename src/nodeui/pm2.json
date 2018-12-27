@@ -1,0 +1,9 @@
+{
+    "name": "node-app",
+    "script": "app.js",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file": "log/node-app.stderr.log",
+    "watch": true,
+    "exec_mode": "cluster",
+    "instances": 4
+} 
