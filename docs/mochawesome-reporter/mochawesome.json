@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2018-11-29T13:26:28.848Z",
-    "end": "2018-11-29T13:26:28.928Z",
-    "duration": 80,
+    "start": "2018-12-28T04:28:17.023Z",
+    "end": "2018-12-28T04:28:17.060Z",
+    "duration": 37,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "7f4fa1a9-ad86-45c8-ba8b-e950d1e20cd4",
+    "uuid": "91d7e05b-3a9f-487d-907f-aff850b7b15b",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,39 +28,55 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "c350d43a-0af5-4170-9c62-e213b1898b40",
-        "title": "获取数据接口",
-        "fullFile": "/Users/konglili/Desktop/全栈工程师/第二周node/node_app/services/router.spec.js",
-        "file": "/services/router.spec.js",
-        "beforeHooks": [],
+        "uuid": "ae0111b5-02a7-43c3-9070-ac4a5a674858",
+        "title": "node接口测试",
+        "fullFile": "/Users/konglili/Desktop/node_app/test/services/router.spec.js",
+        "file": "/test/services/router.spec.js",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: must be on home page",
+            "fullTitle": "node接口测试 \"before all\" hook: must be on home page",
+            "timedOut": false,
+            "duration": 27,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "requestProxy.get('/')\n    .expect(200, done);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "6f9b290c-1563-4522-9ff9-d7b7dd0d8ff7",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
         "afterHooks": [],
         "tests": [
           {
-            "title": "test接口测试",
-            "fullTitle": "获取数据接口 test接口测试",
+            "title": "test 接口测试",
+            "fullTitle": "node接口测试 test 接口测试",
             "timedOut": false,
-            "duration": 71,
+            "duration": 2,
             "state": "passed",
-            "speed": "medium",
+            "speed": "fast",
             "pass": true,
             "fail": false,
             "pending": false,
-            "code": "axios.get('http://localhost:8080/basic/web/index.php?r=book/index')\n    .then(function (response) {\n        if (response.data.data.rows) {\n            done();\n        } else {\n            done(new Error(\"数据请求格式错误\"));\n        }\n    })\n    .catch(function (error) {\n        done(error);\n    });",
+            "code": "requestProxy.get('/')\n.expect('Content-Type',/json/)\n.expect(200)\n.end(function(err, res) {\n    if(res.body.data == \"Hello World\"){\n        done()\n    }else {\n        done(new Error('接口数据异常'));\n    }\n})",
             "err": {},
             "isRoot": false,
-            "uuid": "2f05f604-616a-4519-b5e9-208bd2ffc79e",
+            "uuid": "81575bb3-9d6b-4740-926b-15ae980bc0f9",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "2f05f604-616a-4519-b5e9-208bd2ffc79e"
+          "81575bb3-9d6b-4740-926b-15ae980bc0f9"
         ],
         "failures": [],
         "pending": [],
         "skipped": [],
-        "duration": 71,
+        "duration": 2,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000

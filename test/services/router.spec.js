@@ -7,7 +7,7 @@
  const requestProxy = request();
  describe('node接口测试', function () {
     before('must be on home page', function(done) {
-        requestProxy.get('./')
+        requestProxy.get('/')
             .expect(200, done);
     });
     it("test 接口测试", function(done) {
@@ -15,7 +15,7 @@
         .expect('Content-Type',/json/)
         .expect(200)
         .end(function(err, res) {
-            if(res.body.data == "hello wordl"){
+            if(res.body.data == "Hello World"){
                 done()
             }else {
                 done(new Error('接口数据异常'));
