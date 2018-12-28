@@ -4,6 +4,7 @@
  function request() {
      return superagent(app.listen())
  }
+ 
  const requestProxy = request();
  describe('node接口测试', function () {
     before('must be on home page', function(done) {
