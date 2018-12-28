@@ -31,8 +31,6 @@
     "lodash": "^4.17.11",
     "log4js": "^3.0.6",
     "node-fetch": "^2.3.0",
-    "puppeteer": "^1.10.0",
-    "rize": "^0.8.0",
     "supertest": "^3.3.0"
   },
   "devDependencies": {
