@@ -1,3 +1,3 @@
 echo "🍌"
-yarn install
+npm install
 pm2 restart app

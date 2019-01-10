@@ -19,3 +19,21 @@
 7、package.json 的生命周期
 8、husky本地代码hint
 9、流清洗使用rollup只清洗掉了无用代码， 没有清晰多余的逻辑判断
+
+webpack.config.js
+
+1.划分文件目录
+    webapp
+        components/
+        views
+            views/common
+            views/books
+2. 在webpack.config.js中配置 寻找entry
+3. 对于不需要处理的模版， 使用copy-webpack-plugin 直接塞到编译后的目录后， common目录， conponents目录
+4. 使用pjax 拦截a ， 进行局部刷新
+
+
+
+
+
+

@@ -13,7 +13,7 @@ const app = new koa();
 // async await 是 *函数的 语法糖 版本
 // koa-swig并没有为koa2 作详细的升级
 // koa1转换器
-// const convert = require('koa-convert');
+// const convert =  require('koa-convert');
 // 指定静态资源目录
 import serve from 'koa-static';
 app.use(serve(config.staticDir));
