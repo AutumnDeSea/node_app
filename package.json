@@ -43,6 +43,7 @@
     "supertest": "^3.3.0",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0",
+    "webpack-manifest-plugin": "^2.0.4",
     "webpack-merge": "^4.1.5",
     "yargs-parser": "^11.1.1"
   },
@@ -57,6 +58,7 @@
     "mocha": "^5.2.0",
     "mochawesome": "^3.1.1",
     "rollup-plugin-replace": "^2.1.0",
-    "scripty": "^1.8.0"
+    "scripty": "^1.8.0",
+    "webpack-livereload-plugin": "^2.2.0"
   }
 }

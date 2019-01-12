@@ -32,6 +32,15 @@ webpack.config.js
 3. 对于不需要处理的模版， 使用copy-webpack-plugin 直接塞到编译后的目录后， common目录， conponents目录
 4. 使用pjax 拦截a ， 进行局部刷新
 
+第四阶段：
+1. 装webpack-livereload-plugin ，多页加载自动更新，浏览器也装一个hotreload  单页面， hotreload
+2. 写htmlAfterWebpackPlugin， 拦截最后生成的html， 注入js
+3. 引入x-tag， 刷新 ssr， 站内切页 csr
+4. 用了x-tag， 站内切js没有带回来， 用preloadjs
+5. 业务js不要每次都去请求， 使用 loaclstorage进行管理
+    涉及版本控制， 使用webpack-manifest-plugin进行控制
+
+
 
 
 

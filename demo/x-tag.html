@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./x-tag.polyfill.js"></script>
+</head>
+<body>
+    <x-add></x-add>
+<script>
+    const x_add = xtag.create('x-add', class extends XTagElement {
+        constructor() {
+            super();
+            console.log('constructor')
+        }
+        "foo::template(true)"() {
+            return `my name is lili`
+        }
+        "bar::template"() {
+            return "my age is 26"
+        }
+    }) 
+    const xAdd = new x_add();
+    xAdd.render('bar');
+</script>  
+</body>
+</html>

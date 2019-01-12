@@ -9,9 +9,10 @@
         {% block title %}
         {% endblock %}
     </title>
-    
+
     {% block head %}
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.2.1/css/bootstrap.css">
+    <link rel="preload" href="/scripts/books-add.bundle.js" as="script">
     {% endblock %}
 
     {% block styles %}
@@ -26,9 +27,27 @@
         {% block content %}
         {% endblock %}
     </div>
+    <script id="acitveJs"></script>
+    <script src="https://cdn.bootcss.com/x-tag/2.0.9-alpha/x-tag-polyfilled.min.js"></script>
     <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdn.staticfile.org/jquery.pjax/2.0.1/jquery.pjax.js"></script>
     <script>
+        // 激活已有缓存
+        // 判断过期了没
+        // 如果没有， 先把script的url 添上
+        // window.activeJs = function (url) {
+        //     if (localStorage[url]) {
+        //         $("#activeJs").html(localStorage[url])
+        //     } else {
+        //         $("#activeJs").attr('src', localStorage[url]);
+
+        //     }
+        // }
+        // function replace(url) {
+        //     fetch(url).then(function (data) {
+        //         localStorage[url]
+        //     })
+        // }
         $(document).pjax("a", "#app");
     </script>
     {% block scripts %}

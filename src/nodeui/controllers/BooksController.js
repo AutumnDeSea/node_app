@@ -22,7 +22,25 @@ class IndexController{
     }
     actionCreate() {
         return async(ctx, next) => {
-            ctx.body = await ctx.render('books/pages/add')
+           const html = await ctx.render('books/pages/add');
+            if(ctx.request.header['x-pjax']) {
+                const $ = cheerio.load(html);
+                let _result = "";
+                $('.pjaxcontent').each(function() {
+                    _result += $(this).html();
+                })
+                $('.lazyload-js').each(function(){
+                    // activeJs($(this).attr('src'))
+                    _result += `<script src="${$(this).attr('src')}"></script>`
+                })
+                // $('.lazyload-css').each(function(){
+                //     _result += `<script src="${$(this).attr('src')}"></script>`
+                // })
+                console.log('🌹', _result);
+                ctx.body = _result;
+            }else {
+                ctx.body = html;
+            }
         }
     }
     actionSaveData() {
